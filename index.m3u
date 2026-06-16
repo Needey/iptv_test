@@ -73,13 +73,15 @@ https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
 https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="TV" tvg-id="SIC.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
-#EXTVLCOPT:http-origin=https://sic.pt
-#EXTVLCOPT:http-referrer=https://sic.pt/
-https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e4cce7421f2843fe94915343372ba185:a55effc1eb5ccf1af1c4f09abbb1cd39
+https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/5e99aa024db04f4a877d37ad9512ef24/index.mpd
 
 #EXTINF:-1 group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
-https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvNi8yMDI1IDEyOjEwOjQ4IFBNJmhhc2hfdmFsdWU9WERtSElFR0YveXlYYy9LKzQvOHMxUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTc5OTA3MTk4LTQ0NTItNDI1YS1hYzc4LTA4NGE2MWFjYmM2Mg==/
+#EXTVLCOPT:http-user-agent=Firefox
+https://github.com/LITUATUI/M3UPT/raw/main/M3U/TVI.m3u8
 
 #EXTINF:-1 group-title="TV" tvg-name="RTP Noticias" tvg-id="RTPNoticias.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/rtpnoticias.png",RTP Notícias
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
